@@ -31,7 +31,7 @@ include __DIR__ . '/includes/html.php'; ?>
             </li><?php
         } ?>
     </ul>
-
+<div class="d-flex justify-content-center">
     <nav aria-label="...">
   <ul class="pagination pagination-sm">
     <li class="page-item active" aria-current="page">
@@ -41,7 +41,7 @@ include __DIR__ . '/includes/html.php'; ?>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
   </ul>
 </nav>
-
+</div>
 <?php
 
 include __DIR__ . '/includes/end.php';
